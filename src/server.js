@@ -28,7 +28,6 @@ export const app = () => {
         )
     } catch (err) {
         console.error(err)
-        return
     }
 
     const httpServer = createServer(app)({
