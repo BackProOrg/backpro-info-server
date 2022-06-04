@@ -1,0 +1,9 @@
+NODE_ENV= 'production'
+CONNECTION_STRING= 'postgres://postgres:8ackPro.2022*@45.93.100.36:5432/devbackpro'
+PORT= 8040
+HOSTNAME= 'localhost'
+CRYPTO_SECRET= 'ascedcdfvdfw12dvfdscsaewqfgbvfed'
+#SSL
+SSL_DIR_CERTS='C:/Users/johan/Desktop/Backpro/backpro-message-server/ssl'
+CERT_NAME='cert.pem'
+CERT_KEY='key.pem'
