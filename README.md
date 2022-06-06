@@ -4,8 +4,11 @@ Project Deployed in our server
 
 ## Pre requisites
 
-Node js 16.13.2
-firebase cli @latest
+-   Node js 16.13.2
+-   firebase cli @latest
+-   Download open ssl
+    -   https://sourceforge.net/projects/openssl-for-windows/
+    -   Add into PATH variable: C:\Program Files\OpenSSL-Win64\bin
 
 ### how to install?
 
@@ -30,4 +33,4 @@ firebase cli @latest
 
 ### To deploy you must
 
-Log in gcloud and run an instance of pm2 `pm2 start npm -- start`
+run with `npm start`
